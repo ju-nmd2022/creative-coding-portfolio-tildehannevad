@@ -83,5 +83,5 @@ function draw() {
     }
   }
 
-  noLoop();
+  // noLoop();
 }

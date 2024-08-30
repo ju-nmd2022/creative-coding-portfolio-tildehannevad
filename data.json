@@ -1,7 +1,17 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "file": "experiments/veraMolnar01.js",
+    "name": "Recreated artwork 1",
+    "description": "This recreated artwork is originally from Vera Molnár. I have basically not changed anything from the original look. I started with testing around with it, figuring out what is what. I made my own version of Vers Molnárs art, with random color choice."
+  },
+  {
+    "file": "experiments/veraMolnar01.js",
+    "name": "Recreated artwork 2",
+    "description": "This recreated artwork is originally from Vera Molnár. What i've done to change it is to use both random color and perlin noise. This makes the color interact with eachother and it looks like the colors are fading into eachother."
+  },
+  {
+    "file": "experiments/veraMolnar01.js",
+    "name": "Recreated artworks",
+    "description": "This recreated artwork is originally from Vera Molnár. What i've done to change it is to add ellipses into the mix and also letting it be a loop. It makes it really tough to look at for a long time."
   }
 ]
