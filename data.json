@@ -1,17 +1,37 @@
 [
   {
     "file": "experiments/veraMolnar01.js",
-    "name": "Recreated artwork 1",
+    "name": "Week 1, Vera Molnar 01",
     "description": "This recreated artwork is originally from Vera Molnár. I have basically not changed anything from the original look. I started with testing around with it, figuring out what is what. I made my own version of Vers Molnárs art, with random color choice."
   },
   {
     "file": "experiments/veraMolnar02.js",
-    "name": "Recreated artwork 2",
+    "name": "Week 1, Vera Molnar 02",
     "description": "This recreated artwork is originally from Vera Molnár. What i've done to change it is to use both random color and perlin noise. This makes the color interact with eachother and it looks like the colors are fading into eachother."
   },
   {
     "file": "experiments/veraMolnar03.js",
-    "name": "Recreated artworks 3",
+    "name": "Week 1, Vera Molnar 03",
     "description": "This recreated artwork is originally from Vera Molnár. What i've done to change it is to add ellipses into the mix and also letting it be a loop. It makes it really tough to look at for a long time."
+  },
+  {
+    "file": "experiments/hypnoticSquares01.js",
+    "name": "Week 1, Hypnotic Squares 01",
+    "description": "Tried playing some with William Kolomyjec's art piece Hypnotic Squares by adding some color. "
+  },
+  {
+    "file": "experiments/hypnoticSquares02.js",
+    "name": "Week 1, Hypnotic Squares 02",
+    "description": "On this one I added some movement and perlin noise for the color of the stroke."
+  },
+  {
+    "file": "experiments/tylerHobbs02.js",
+    "name": "Week 2, Tyler Hobbs 01",
+    "description": "Tried making something that looked like Tyler Hobbs 'Return Zero' and when playing with the values this came up instead and I like the interactiveness of the art piece."
+  },
+  {
+    "file": "experiments/tylerHobbs03.js",
+    "name": "Week 2, Tyler Hobbs 02",
+    "description": "This is also a interactive art piece, more inspired by my last one than Tyler Hobbs. It looks like its raining with the click of a button."
   }
 ]
