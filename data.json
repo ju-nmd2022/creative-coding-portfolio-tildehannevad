@@ -33,5 +33,10 @@
     "file": "experiments/tylerHobbs03.js",
     "name": "Week 2, Tyler Hobbs 02",
     "description": "This is also a interactive art piece, more inspired by my last one than Tyler Hobbs. It looks like its raining with the click of a button."
+  },
+  {
+    "file": "experiments/twinkleMelody.js",
+    "name": "Week 4, Twinkle, twinkle little star",
+    "description": "Here we have a bedtime song with just a click. These stars bounce of each other and the walls which creates the Twinkle little star melody, randomly and not in the usual tempo!"
   }
 ]
