@@ -35,6 +35,16 @@
     "description": "This is also a interactive art piece, more inspired by my last one than Tyler Hobbs. It looks like its raining with the click of a button."
   },
   {
+    "file": "experiments/test.js",
+    "name": "Week 3, Circle Packing",
+    "description": "With just a click you can make which circle you want to go away. This art piece is inspired by Circle Packing from https://generativeartistry.com/tutorials/circle-packing/."
+  },
+  {
+    "file": "experiments/handPose.js",
+    "name": "Hand pose",
+    "description": ""
+  },
+  {
     "file": "experiments/twinkleMelody.js",
     "name": "Week 4, Twinkle, twinkle little star",
     "description": "Here we have a bedtime song with just a click. These stars bounce of each other and the walls which creates the Twinkle little star melody, randomly and not in the usual tempo!"

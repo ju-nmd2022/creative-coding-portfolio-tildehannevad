@@ -44,6 +44,12 @@ function goToExperiment(index) {
   toneScript.defer = true;
   bodyElement.appendChild(toneScript);
 
+  const ml5Script = document.createElement("script");
+  ml5Script.type = "text/javascript";
+  ml5Script.src = "https://unpkg.com/ml5@0.6.0/dist/ml5.min.js";
+  ml5Script.defer = true;
+  bodyElement.appendChild(ml5Script);
+
   const codeScript = document.createElement("script");
   codeScript.type = "text/javascript";
   codeScript.src = experiment.file;
