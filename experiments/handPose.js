@@ -1,12 +1,13 @@
-//Using Bassima's code
+// Bassimas code with some modifications.
 let handpose;
 let video;
 let predictions = [];
+let thumbsUp = false;
 
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(windowWidth, windowHeight);
   video = createCapture(VIDEO);
-  video.size(640, 480);
+  video.size(440, 280);
   video.hide();
 
   handpose = ml5.handpose(video, modelReady);
@@ -19,22 +20,45 @@ function modelReady() {
   console.log("Model ready!");
 }
 
+// Background
 function draw() {
-  image(video, 0, 0, width, height);
+  background(0, 70);
+  for (let i = 0; i < width; i += 20) {
+    stroke(255, random(100, 255));
+    line(i, random(height), i, height);
+  }
 
+  // Center the video
+  image(video, (width - 440) / 2, (height - 280) / 2, 440, 280);
+
+  thumbsUp = false;
   for (let i = 0; i < predictions.length; i++) {
     let prediction = predictions[i];
 
     let indexFinger = prediction.landmarks[8];
     let thumb = prediction.landmarks[4];
+    let wrist = prediction.landmarks[0];
 
-    let centerX = (indexFinger[0] + thumb[0]) / 2;
-    let centerY = (indexFinger[1] + thumb[1]) / 2;
-
-    let distance = dist(indexFinger[0], indexFinger[1], thumb[0], thumb[1]);
-
-    noStroke();
-    fill(255, 0, 0);
-    ellipse(centerX, centerY, distance);
+    // Thumbs-up logic
+    if (
+      thumb[1] < wrist[1] &&
+      thumb[0] > indexFinger[0] &&
+      Math.abs(thumb[0] - indexFinger[0]) < 50 &&
+      Math.abs(thumb[1] - indexFinger[1]) > 30
+    ) {
+      thumbsUp = true;
+    }
   }
+
+  // Thumbs-up reaction
+  if (thumbsUp) {
+    fill(255, 0, 0);
+    textSize(32);
+    textAlign(CENTER);
+    text("Good job!!", width / 2, height / 2);
+  }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

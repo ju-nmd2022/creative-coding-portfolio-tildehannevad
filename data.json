@@ -40,9 +40,14 @@
     "description": "With just a click you can make which circle you want to go away. This art piece is inspired by Circle Packing from https://generativeartistry.com/tutorials/circle-packing/."
   },
   {
+    "file": "experiments/triangularMesh.js",
+    "name": "Week 3, Triangular flow",
+    "description": "A triagular flow using perlin noise on both movement and color. This art is from https://generativeartistry.com/tutorials/triangular-mesh/"
+  },
+  {
     "file": "experiments/handPose.js",
-    "name": "Hand pose",
-    "description": ""
+    "name": "Week 3, Thumb Up!!",
+    "description": "By having a handpose prediction it is possible for the camera to detect a certain handpose, in this case a thumb up. When successing you will recieve a message on the screen. "
   },
   {
     "file": "experiments/twinkleMelody.js",
