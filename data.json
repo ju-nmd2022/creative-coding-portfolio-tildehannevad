@@ -35,9 +35,14 @@
     "description": "This is also a interactive art piece, more inspired by my last one than Tyler Hobbs. It looks like its raining with the click of a button."
   },
   {
-    "file": "experiments/test.js",
-    "name": "Week 3, Circle Packing",
-    "description": "With just a click you can make which circle you want to go away. This art piece is inspired by Circle Packing from https://generativeartistry.com/tutorials/circle-packing/."
+    "file": "experiments/tylerHobbs04.js",
+    "name": "Week 2, Tyler Hobbs 03",
+    "description": "This is inspired by the previous Tyler Hobbs, but in this the agents are having a flocking behaviour and changing their color based on speed and their size based on how close to the middle they are. They also aviod obstacles and you can add more with a click.  "
+  },
+  {
+    "file": "experiments/figurePacking.js",
+    "name": "Week 3, Figure Packing",
+    "description": "With just a click you can make which figure you want to go away. This art piece is inspired by Circle Packing from https://generativeartistry.com/tutorials/circle-packing/."
   },
   {
     "file": "experiments/triangularMesh.js",
